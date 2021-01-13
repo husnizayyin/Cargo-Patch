@@ -92,9 +92,8 @@
         <p class="u-fs-22 u-lh-1_8 my-4 text-white">
           KIRIM PAKETMU LEWAT BUS KAMI JAMIN SEHARI SAMPAI TUJUAN UNTUK AREA JAWA BARAT
         </p>
-        <a href="sign-up.php" class="btn btn btn-rounded btn-primary  u-w-170 u-mt-15">
-        	CEK ONGKIR MU DISINI
-        </a>
+        <a href="shipping-rates.php" class="btn btn-primary btn-rounded mt-4">Cek Ongkir</a>
+
       </div> <!-- END col-lg-7-->
       
 
@@ -120,13 +119,11 @@
     <div class="row text-center">
     	<div class="col-lg-9 mx-auto">
     		<h2 class="h1">
-    			Pengalaman kami dalam dunia otobus sudah tidak diragukan lagi
+    			PANG SAE NA SA JAWA BARAT INSYA ALLOH MOAL NGECEWAKEUN BUDIMAN MAH TOS TERJAMIN
     		</h2>
     		<div class="u-h-4 u-w-70 bg-primary rounded mt-4 u-mb-30 mx-auto"></div>
-    		<p>
-    			Nam liber tempor cum soluta nobis eleifend option congue is nihil imper is per tem por legere me that doming vulputate velit esse molestie possim. wisi enim ad placerat facer possim assum minim there veniam, nostrud exerci tation ullamcorper quis nostrud exerci tation ullamcorper.
-    		</p>
-    		<a href="shipping-rates.php" class="btn btn-primary btn-rounded mt-4">GET A QUOTE</a>
+    		
+    		
     	</div>
 		 <div class="col-12 u-mt-10 text-center">
      	<img src="assets-theme/img/startup/s-1.png" alt="">
@@ -138,90 +135,6 @@
                                       
 <section class="bg-gray-v2 u-pb-80">  
   <div class="container">
-   <div class="row">
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-FileBox text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Pick a Courier
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
-		
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-Files text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Generate labels
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
-		
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-Truck text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Arrange pickup
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
-		
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-Pointer text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Track
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
-		
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-Resume text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Business Consulting
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
-		
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-Starship2 text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Progress Across Projects
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
 		
    </div> <!--END row-->
   </div> <!-- END container-->
@@ -243,70 +156,6 @@
     </div> <!-- END row-->
   </div> <!-- END container-->
 </section> <!-- END section--> 
-            
-<section class="u-py-100 bg-white-v2">
-	<div class="container">
-		<div class="row text-center">
-		
-			<div class="col-md-4 mt-5 mt-md-0">
-				<span class="icon icon-WorldWide u-fs-60 text-primary"></span>
-				<h3 class="my-4">
-					QUALITY
-				</h3>
-				<p>
-					Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend legere me doming.
-				</p>
-			</div>  <!-- END col-md-4 -->
-		
-			<div class="col-md-4 mt-5 mt-md-0">
-				<span class="icon icon-Starship u-fs-60 text-primary"></span>
-				<h3 class="my-4">
-					FAST
-				</h3>
-				<p>
-					Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend legere me doming.
-				</p>
-			</div>  <!-- END col-md-4 -->
-		
-			<div class="col-md-4 mt-5 mt-md-0">
-				<span class="icon icon-Shield u-fs-60 text-primary"></span>
-				<h3 class="my-4">
-					SAFE
-				</h3>
-				<p>
-					Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend legere me doming.
-				</p>
-			</div>  <!-- END col-md-4 -->
-			
-		</div> <!-- END row-->
-	</div> <!-- END container-->
-</section>
-
-
-<section class="u-py-100 bg-white-v2">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 d-md-flex justify-content-between text-center">
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-0.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-1.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-2.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-3.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-4.png" alt="">
-				</div>
-			</div>
-		</div> <!-- END row-->
-	</div> <!-- END container-->
-</section>
-     
 
 <?php require_once("footer.php");?> 
 

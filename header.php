@@ -141,11 +141,7 @@
 							Log In
 						</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link" href="sign-up.php">
-							Sign Up
-						</a>
-					</li>
+
 					<?php endif;?>
 					
 					

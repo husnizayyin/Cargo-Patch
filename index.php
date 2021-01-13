@@ -1,23 +1,4 @@
 <?php
-// *************************************************************************
-// *                                                                       *
-// * DEPRIXA -  Integrated Web system                                      *
-// * Copyright (c) JAOMWEB. All Rights Reserved                            *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * Email: osorio2380@yahoo.es                                            *
-// * Website: http://www.jaom.info                                         *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * This software is furnished under a license and may be used and copied *
-// * only  in  accordance  with  the  terms  of such  license and with the *
-// * inclusion of the above copyright notice.                              *
-// * If you Purchased from Codecanyon, Please read the full License from   *
-// * here- http://codecanyon.net/licenses/standard                         *
-// *                                                                       *
-// *************************************************************************
 
   define("_VALID_PHP", true);
   require_once("init.php");
@@ -32,15 +13,15 @@
   <!--Meta-->
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="keywords" content="Courier DEPRIXA-Integral Web System" />
-  <meta name="author" content="Jaomweb">
+  <meta name="keywords" content="Budiman cargo" />
+  <meta name="author" content="Husni Zayyin Ansori">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!--Favicon-->
   <link rel="icon" href="uploads/favicon.png">
   
   <!-- Title-->
-  <title> Now you can shipment worldwide | <?php echo $core->site_name;?></title>
+  <title> Sekarang Kirim barang Bisa Lewat Bus| <?php echo $core->site_name;?></title>
   
   <!--Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700%7COpen+Sans:400,600,700" rel="stylesheet">
@@ -63,10 +44,10 @@
 			<div class="col-md-6 mb-3 mb-md-0 text-center text-md-left">
 			<ul class="list-inline mb-0">
 				<li class="list-inline-item mr-3">
-					<span class="icon icon-Phone2 text-primary mr-1"></span> 0180. 344. 980. 211
+					<span class="icon icon-Phone2 text-primary mr-1"></span> 082132287324
 				</li>
 				<li class="list-inline-item">
-					<span class="icon icon-Mail text-primary mr-1"></span> <a href="mailto:support@jaom.info">support@jaom.info</a>
+					<span class="icon icon-Mail text-primary mr-1"></span> <a href="mailto:support@jaom.info">husni.zayyin98@gmail.coom</a>
 				</li>
 			</ul> <!-- END list-inline-->
 			</div> <!-- END col-md-6 -->
@@ -106,13 +87,13 @@
     <div class="row align-items-center">
       <div class="col-lg-7 mb-5 mb-lg-0">
         <h1 class="display-4 u-fw-600">
-          <span class="text-primary">Trusted</span> <span class="text-white">worldwide!!</span>
+          <span class="text-primary">Trusted</span> <span class="text-white">AREA JAWA BARAT</span>
         </h1>
         <p class="u-fs-22 u-lh-1_8 my-4 text-white">
-          The best template for your startup to showcase and acquire new customers all around the world!
+          KIRIM PAKETMU LEWAT BUS KAMI JAMIN SEHARI SAMPAI TUJUAN UNTUK AREA JAWA BARAT
         </p>
         <a href="sign-up.php" class="btn btn btn-rounded btn-primary  u-w-170 u-mt-15">
-        	Get Started
+        	CEK ONGKIR MU DISINI
         </a>
       </div> <!-- END col-lg-7-->
       
@@ -124,7 +105,7 @@
 						<input type="text" name="order_inv" class="form-control border-0 p-3" placeholder="Shipping number Ej:(AWB-100000001)" required>
 					</div>
 			 		<button type="submit" name="submit" class="btn btn-primary btn-rounded">
-			 			<span class="icon icon-Truck text-white"></span>&nbsp;&nbsp; Search Tracking
+			 			<span class="icon icon-Truck text-white"></span>&nbsp;&nbsp; LACAK PAKET
 			 		</button>
 			 	</form>
 			</div>
@@ -139,7 +120,7 @@
     <div class="row text-center">
     	<div class="col-lg-9 mx-auto">
     		<h2 class="h1">
-    			Professional Warehouse solution for every need
+    			Pengalaman kami dalam dunia otobus sudah tidak diragukan lagi
     		</h2>
     		<div class="u-h-4 u-w-70 bg-primary rounded mt-4 u-mb-30 mx-auto"></div>
     		<p>

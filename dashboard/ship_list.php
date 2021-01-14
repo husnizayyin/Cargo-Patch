@@ -80,18 +80,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<!-- col -->	
-					<div class="col-lg-6 col-md-6">
-						<div class="d-flex align-items-center">
-							<div class="m-r-10"><a  href="container.php?do=list_container"><span class="text-secondary display-5"><i class="mdi mdi-view-week"></i></a></span></div>
-							<div><span><?php echo $lang['countcontainer'] ?></span>
-								<h3 class="font-medium m-b-0"> 
-								<?php
-								$total4 = $db->query("SELECT count(id) as total4 FROM add_container WHERE act_status='3'")->fetch_object()->total4; 
-								print $total4; //output value
-								?></h3>
-							</div>
-						</div>
-					</div>
+
 					<!-- col -->				
 					<div class="col-lg-6 col-md-6">
 						<div class="d-flex align-items-center">
@@ -140,18 +129,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<!-- col -->
-					<div class="col-lg-6 col-md-6">
-						<div class="d-flex align-items-center">
-							<div class="m-r-10"><a  href="consolidate.php?do=list_consolidate"><span class="text-secondary display-5"><i class="mdi mdi-gift"></i></a></span></div>
-							<div><span><?php echo $lang['langs_01041'] ?></span>
-								<h3 class="font-medium m-b-0">
-								<?php
-								$total5 = $db->query("SELECT count(id) as total5 FROM consolidate WHERE  act_status='0'")->fetch_object()->total5; 
-								print $total5; //output value
-								?></h3>
-							</div>
-						</div>
-					</div>
+				
 				</div>
 			
 				<div class="card-body border-top">

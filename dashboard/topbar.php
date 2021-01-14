@@ -41,35 +41,11 @@
                         <!-- ============================================================== -->
                         <!-- create new -->
                         <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							  <?php if ($core->language == "en"){ ?>	
-								<i class="flag-icon flag-icon-us"></i>
-							  <?php }else if($core->language == "es"){ ?>
-								<i class="flag-icon flag-icon-es"></i>
-							  <?php }else if($core->language == "fr"){ ?>
-							    <i class="flag-icon flag-icon-fr"></i>
-							  <?php }else if($core->language == "ru"){ ?>
-							    <i class="flag-icon flag-icon-ru"></i>
-							  <?php }else{ ?>
-								<i class="flag-icon flag-icon-it"></i>
-							  <?php } ?>
-                            </a>
-                        </li>
+                     
                         <!-- ============================================================== -->
                         <!-- Comment -->
                         <!-- ============================================================== -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="mdi mdi-bell font-24"></i><span class="badge badge-notify badge-sm up bg-danger pull-top-xs"><?php echo countEntries(Core::cTable, "status_courier", "Pending");?></span></a>
-							
-                            <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown">
-                                <span class="with-arrow"><span class="bg-danger"></span></span>
-									<div class="drop-title bg-danger text-white">
-										<h4 class="m-b-0 m-t-5"><?php echo countEntries(Core::cTable, "status_courier", "Pending");?> <?php echo $lang['notinew'] ?></h4>
-										<span class="font-light"><?php echo $lang['notiapprove'] ?></span>
-									</div>
-                            </div>
-                        </li>
+
                         <!-- ============================================================== -->
                         <!-- End Comment -->
                         <!-- ============================================================== -->

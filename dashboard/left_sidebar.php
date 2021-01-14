@@ -51,22 +51,8 @@
 								<li class="sidebar-item"><a href="customer_list.php" class="sidebar-link"><i class="mdi mdi-cube-send"></i><span class="hide-menu"> <?php echo $lang['createshipment'] ?> </span></a></li>
 							</ul>
                         </li>	
-						 
-						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-view-week"></i><span class="hide-menu"><?php echo $lang['container'] ?></span></a>
-                            <ul aria-expanded="false" class="collapse  first-level">
-								<li class="sidebar-item"><a href="container.php?do=list_container" class="sidebar-link"><i class="mdi mdi-check"></i><span class="hide-menu"> <?php echo $lang['contalist'] ?> </span></a></li>
-								<li class="sidebar-item"><a href="client_container.php" class="sidebar-link"><i class="mdi mdi-view-week"></i><span class="hide-menu"> <?php echo $lang['createcontainer'] ?> </span></a></li>
-							</ul>
-                        </li>
+						 						
 						
-						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="ti ti-gift" style="color:#7460ee"></i><span class="hide-menu"><?php echo $lang['conso-lidate'] ?></span></a>
-                            <ul aria-expanded="false" class="collapse  first-level">
-								<li class="sidebar-item"><a href="add_packages.php" class="sidebar-link"><i class="fas fa-cubes" style="color:#fb8c00"></i><span class="hide-menu"> <?php echo $lang['langs_01034'] ?> </span></a></li>
-								<li class="sidebar-item"><a href="consolidate.php?do=list_consolidate" class="sidebar-link"><i class="mdi mdi-check"></i><span class="hide-menu"> <?php echo $lang['langs_01031'] ?> </span></a></li>
-								
-							</ul>
-                        </li>
-						 
 						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-book-multiple" style="color:#fb8c00"></i><span class="hide-menu"><?php echo $lang['manageshipment'] ?></span></a>
                             <ul aria-expanded="false" class="collapse  first-level">
                                 <li class="sidebar-item"><a href="shipping.php?do=shipment" class="sidebar-link"><i class="mdi mdi-check"></i><span class="hide-menu"> <?php echo $lang['all'] ?> </span></a></li> 

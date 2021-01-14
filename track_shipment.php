@@ -179,11 +179,9 @@
        
 
 <?php require_once("footer.php");?> 
-
 	<div class="scroll-top bg-white box-shadow-v1">
 		<i class="fa fa-angle-up" aria-hidden="true"></i>
 	</div> 
-	
 	<script src="assets-theme/js/fury.js"></script>
 	<script src="assets/js_/script.js"></script>
     <!-- Validate JS -->	

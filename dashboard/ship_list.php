@@ -116,18 +116,7 @@ $(document).ready(function(){
 						</div>
 					</div>
 					<!-- col -->
-					<div class="col-lg-6 col-md-6">
-						<div class="d-flex align-items-center">
-							<div class="m-r-10"><a  href="add_packages.php"><span class="text-secondary display-5"><i class="mdi mdi-dropbox"></i></a></span></div>
-							<div><span><?php echo $lang['langs_01040'] ?></span>
-								<h3 class="font-medium m-b-0">
-								<?php
-								$total4 = $db->query("SELECT count(id) as total4 FROM add_consolidate WHERE  act_status='0'")->fetch_object()->total4; 
-								print $total4; //output value
-								?></h3>
-							</div>
-						</div>
-					</div>
+			
 					<!-- col -->
 				
 				</div>
@@ -135,37 +124,13 @@ $(document).ready(function(){
 				<div class="card-body border-top">
 					<div class="row m-b-0">
 						<!-- col -->
-						<div class="col-lg-6 col-md-6">
-							<div class="d-flex align-items-center">
-								<div class="m-r-10"><span class="text-orange display-5"><i class="mdi mdi-wallet"></i></span></div>
-								<div><span><?php echo $lang['currentsales'] ?></span>
-									<h3 class="font-medium m-b-0"><?php echo $core->currency;?> <?php
-									$total6 = $db->query("SELECT SUM(r_costtotal) as total6 FROM add_courier WHERE act_status='1'")->fetch_object()->total6; 
-									print formato($total6); //output value
-									?></h3>
-								</div>
-							</div>
-						</div>					
+										
 						<!-- col -->
-						<div class="col-lg-6 col-md-6">
-							<div class="d-flex align-items-center">
-								<div class="m-r-10"><span class="text-primary display-5"><i class="mdi mdi-currency-usd"></i></span></div>
-								<div><span><?php echo $lang['flexcurrentsales'] ?></span>
-									<h3 class="font-medium m-b-0"><?php echo $core->currency;?> <?php
-									$month = date('m');
-									$year = date('Y'); //2018
-									$total7 = $db->query("SELECT SUM(r_costtotal) as total7 FROM add_courier WHERE month(created)='$month' AND year(created)='$year' AND act_status='1'")->fetch_object()->total7; 
-									print formato($total7); //output value
-									?></h3>
-								</div>
-							</div>
-						</div>
+					
 						<!-- col -->
 					</div>					
 				</div>
-				<div class="card-body border-top">
-					<a  class="waves-effect waves-light m-t-60 btn btn-lg btn-primary accent-4 m-b-7" href="shipping.php?do=billings"><?php echo $lang['lastsummary'] ?></a>
-				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -257,57 +222,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
-	<div class="col-lg-4 col-xl-3">
-		<div class="card card-hover">
-			<div class="card-body">
-				<div class="p-t-20 text-center">
-					<div class="d-md-flex align-items-center">
-					<div>
-						<h4 class="card-title"><?php echo $lang['cardtitle'] ?></h4>
-					</div>
-				</div>
-				<!-- column -->
-				<div id="loader" style="display:none"></div>
-				<div id="msgholder"></div>
-				<div class="table-responsive">
-					<table id="default_order" class="table table-striped  display">
-						<thead>
-						   <tr class="border-0">
-								<th class="border-0"><b><?php echo $lang['ltracking'] ?></b></th>
-								<th data-hide="all" class="border-0" align='center'><b><?php echo $lang['aaction'] ?></b></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<?php if(!$onlinerow):?>
-								<tr>
-									<td colspan="2">
-									<?php echo "
-									<i align='center' class='display-3 text-warning d-block'><img src='assets/images/alert/ohh_shipment_online.png' width='193' /></i>
-									</br>
-									<p style='font-size: 20px; -webkit-font-smoothing: antialiased; color: #737373;' align='center'>".$lang['oohhship']."</p>
-									<p style='font-size: 16px; -webkit-font-smoothing: antialiased; color: #999;' align='center'> ".$lang['oooohhship']."</p>
-									",false;?>
-									</td>
-								</tr>
-								<?php else:?>
-								<?php foreach ($onlinerow as $row):?>
-								<td><?php echo $row->order_inv;?></td>								
-								<td align='center'>
-								<a  href="edit_courier_online.php?do=edit_courier_online&amp;action=ship&amp;id=<?php echo $row->id;?>" ><button type="button" class="btn btn-sm btn-icon btn-success btn-outline"><?php echo $lang['aapprove'] ?></button></a>           
-								</td>
-							</tr>											
-							<?php endforeach;?>
-							<?php unset($row);?>
-							<?php endif;?>	
-						</tbody>	
-					</table>
-					<?php echo $pager->display_pages();?>
-				</div>
-				<!-- column -->
-			</div>
-		</div>
-	</div>
+	
 </div>
 
 <script src="app.js"></script>

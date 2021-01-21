@@ -1,23 +1,5 @@
 <?php
-// *************************************************************************
-// *                                                                       *
-// * DEPRIXA -  Integrated Web system                                      *
-// * Copyright (c) JAOMWEB. All Rights Reserved                            *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * Email: osorio2380@yahoo.es                                            *
-// * Website: http://www.jaom.info                                         *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * This software is furnished under a license and may be used and copied *
-// * only  in  accordance  with  the  terms  of such  license and with the *
-// * inclusion of the above copyright notice.                              *
-// * If you Purchased from Codecanyon, Please read the full License from   *
-// * here- http://codecanyon.net/licenses/standard                         *
-// *                                                                       *
-// *************************************************************************
+
 
 define("_VALID_PHP", true);
 require_once("../../init.php");
@@ -177,7 +159,7 @@ hr {
 										<p style="text-align: left;"><font size="4"><b><?php echo $row->s_name; ?></b></font></p>
 										<p style="text-align: left; "><?php echo $row->phone; ?></p>
 										<p style="text-align: left; "><strong><?php echo $row->address; ?> - <?php echo $lang['inv-label3'] ?>:<?php echo $row->postal; ?></strong></p>
-										<p style="text-align: left;"><font size=5><strong><?php echo $row->country." | ".$row->city; ?></strong></font></p>
+										<p style="text-align: left;"><font size=5><strong><?php echo $row->city." | ".$row->country; ?></strong></font></p>
 									</td>
 									<td>
 										<p style="text-align: left;"><font size="4"><b>&nbsp;&nbsp;&nbsp;<?php echo $row->r_name; ?></b></font></p>

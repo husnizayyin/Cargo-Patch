@@ -1,23 +1,4 @@
 <?php
-// *************************************************************************
-// *                                                                       *
-// * DEPRIXA -  Integrated Web system                                      *
-// * Copyright (c) JAOMWEB. All Rights Reserved                            *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * Email: osorio2380@yahoo.es                                            *
-// * Website: http://www.jaom.info                                         *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * This software is furnished under a license and may be used and copied *
-// * only  in  accordance  with  the  terms  of such  license and with the *
-// * inclusion of the above copyright notice.                              *
-// * If you Purchased from Codecanyon, Please read the full License from   *
-// * here- http://codecanyon.net/licenses/standard                         *
-// *                                                                       *
-// *************************************************************************
 
 define("_VALID_PHP", true);
 require_once("../../init.php");
@@ -209,10 +190,10 @@ $row = Core::getRowById(Core::cTable, Filter::$id);
 					<?php echo "<img src='".$core->site_url."/uploads/logo.png' border='0' width='190' height='39'>";  ?>
             </td>
 			<td style="border: 0;  text-align: center" width="56%">
-				<?php echo $lang['inv-shipping1'] ?>: <?php echo $core->c_nit; ?> </br> 				 
+				 				 
 				<?php echo $lang['inv-shipping2'] ?>: <?php echo $core->c_phone; ?></br>
 				<?php echo $lang['inv-shipping3'] ?>: <?php echo $core->site_email; ?></br>
-				<?php echo $lang['inv-shipping4'] ?>: <?php echo $core->c_address; ?> - <?php echo $core->c_country; ?>-<?php echo $core->c_city; ?>
+				<?php echo $lang['inv-shipping4'] ?>: <?php echo $core->c_address; ?> - <?php echo $core->c_city; ?>-<?php echo $core->c_country; ?>
 			</td>
             <td style="border: 0;  text-align: center" width="48%">
 				</br><img src='https://barcode.tec-it.com/barcode.ashx?data=<?php echo $row->order_inv; ?>&code=Code128&multiplebarcodes=false&translate-esc=false&unit=Fit&dpi=72&imagetype=Gif&rotation=0&color=%23000000&bgcolor=%23ffffff&qunit=Mm&quiet=0&modulewidth=50' alt='<?php echo $row->order_inv; ?>'/>

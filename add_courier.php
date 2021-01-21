@@ -1,5 +1,23 @@
 <?php
-
+// *************************************************************************
+// *                                                                       *
+// * DEPRIXA -  Integrated Web system                                      *
+// * Copyright (c) JAOMWEB. All Rights Reserved                            *
+// *                                                                       *
+// *************************************************************************
+// *                                                                       *
+// * Email: osorio2380@yahoo.es                                            *
+// * Website: http://www.jaom.info                                         *
+// *                                                                       *
+// *************************************************************************
+// *                                                                       *
+// * This software is furnished under a license and may be used and copied *
+// * only  in  accordance  with  the  terms  of such  license and with the *
+// * inclusion of the above copyright notice.                              *
+// * If you Purchased from Codecanyon, Please read the full License from   *
+// * here- http://codecanyon.net/licenses/standard                         *
+// *                                                                       *
+// *************************************************************************
 
   define("_VALID_PHP", true);
   require_once("../init.php");
@@ -191,7 +209,7 @@
 											<div class="input-group-prepend">
 												<span class="input-group-text" id="basic-addon1"><i class="icon-phone"></i></span>
 											</div>
-											<input type="number" class="form-control" name="r_phone"  placeholder="Nomor Telp">
+											<input type="number" class="form-control" name="r_phone"  placeholder="78524541">
 										</div>
 									</div>
 									<div class="col-sm-12 col-md-4">
@@ -200,7 +218,7 @@
 											<div class="input-group-prepend">
 												<span class="input-group-text" id="basic-addon1"><i class="icon-screen-smartphone"></i></span>
 											</div>
-											<input type="number" class="form-control" name="rc_phone" placeholder="Nomor 2">
+											<input type="number" class="form-control" name="rc_phone" placeholder="(+1)3244152">
 										</div>
 									</div>									                                     
 								</div>
@@ -211,7 +229,7 @@
 											<div class="input-group-prepend">
 												<span class="input-group-text" id="basic-addon1"><i class="icon-location-pin"></i></span>
 											</div>
-											<input type="text" class="form-control" name="r_dest" placeholder="pilih provinsi" list="browsers5" autocomplete="off" required="required">
+											<input type="text" class="form-control" name="r_dest" placeholder="Select Country" list="browsers5" autocomplete="off" required="required">
 											<datalist id="browsers5">
 											<option value="DKI Jakarta">DKI Jakarta</option>
 											<option value="Jogja">Jogja </option>
@@ -269,7 +287,7 @@
 											<div class="input-group-prepend">
 												<span class="input-group-text" style="color:#ff0000"><i class="fas fa-car"></i></span>
 											</div>
-											<input class="form-control" id="exampleFormControlSelect1" name="c_driver" list="browser" autocomplete="off" placeholder="Pilih Driver">
+											<input class="form-control" id="exampleFormControlSelect1" name="c_driver" list="browser" autocomplete="off" placeholder="Select Driver">
 												<datalist id="browser">
 													<?php foreach ($driverrow as $row):?>
 													<option value="<?php echo $row->username; ?>"><?php echo $row->fname; ?> <?php echo $row->lname; ?></option>
@@ -293,7 +311,7 @@
 									<div class="col-sm-12 col-md-4">
 										<label for="inputlname" class="control-label col-form-label"><?php echo $lang['add-title17'] ?> <i style="color:#ff0000" class="fas fa-boxes"></i></label>
 										<div class="input-group">
-											<input class="form-control" name="package" placeholder="jenis Paket" list="browsers1" autocomplete="off" required="required">
+											<input class="form-control" name="package" placeholder="Select Package" list="browsers1" autocomplete="off" required="required">
 											<datalist id="browsers1">
 												<?php foreach ($packrow as $row):?>
 												<option value="<?php echo $row->name_pack; ?>"><?php echo $row->name_pack; ?></option>
@@ -304,7 +322,7 @@
 									<div class="col-sm-12 col-md-4">
 										<label for="inputcontact" class="control-label col-form-label"><?php echo $lang['add-title18'] ?></label>
 										<div class="input-group">
-											<input class="form-control" name="courier" placeholder="pilih bus" list="browsers2" autocomplete="off" required="required">
+											<input class="form-control" name="courier" placeholder="Select Company Courier" list="browsers2" autocomplete="off" required="required">
 											<datalist id="browsers2">
 												<?php foreach ($courierrow as $row):?>
 												<option value="<?php echo $row->name_com; ?>"><?php echo $row->name_com; ?></option>
@@ -337,7 +355,7 @@
 									<div class="col-sm-12 col-md-4">
 										<label for="inputEmail3" class="control-label col-form-label"><?php echo $lang['add-title22'] ?></label>
 										<div class="input-group mb-3">
-											<input class="form-control" name="service_options" placeholder="Layanan" list="browsers3" autocomplete="off" required="required">
+											<input class="form-control" name="service_options" placeholder="Select Shipping Mode" list="browsers3" autocomplete="off" required="required">
 											<datalist id="browsers3">
 												<?php foreach ($moderow as $row):?>
 												<option value="<?php echo $row->ship_mode; ?>"><?php echo $row->ship_mode; ?></option>

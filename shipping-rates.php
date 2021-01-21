@@ -94,12 +94,15 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
 				
 					<div class="col-md-4">
 						<div class="form-group">
-							<label for="ReceiptKind">Tipe Paket</label>
+							<label for="ReceiptKind">Kota Asal</label>
 							<select  class="form-control add-listing_form" id="ReceiptKind" name="type" required="required">
-								<option value="Karung">Karung</option>
-								<option value="Box/Kardus">Box/Kardus</option>
-								<option value="Kayu">Kayu</option>
-								<option value="Dokumen">Dokumen</option>
+							<option value="Tasikmalaya">Tasikmalaya</option> 
+								<option value="Ciamis">Ciamis</option> 
+								<option value="Banjar">Banjar</option>
+								<option value="Bandung">Bandung</option> 
+								<option value="Cimahi">Cimahi</option> 
+								<option value="Bekasi">Bekasi</option> 
+								<option value="Bogor">Bogor</option> 
 							</select>
 						</div>
 					</div>
@@ -194,9 +197,9 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
 				<thead class="text-muted">
 					<tr>
 					  <th scope="col"></th>
-					  <th scope="col" width="250">	Delivery Time</th>
-					  <th scope="col" width="200">Services</th>
-					  <th scope="col" width="200" class="text-center">Shipping Cost
+					  <th scope="col" width="250">	Detail Waktu</th>
+					  
+					  <th scope="col" width="200" class="text-center">Perkiraan Ongkos Kirim
 					  <img src="uploads/tooltip.svg" data-toggle="tooltip" data-html="true" data-placement="top" title="Please note that the final price may vary depending on: - Parcel size - Delivery/pickup loctions - Taxes &amp; duties  S"></th>
 					</tr>
 				</thead>
@@ -213,18 +216,12 @@ background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, F
 								<span><?php echo $row->deli_time;?></span>
 							</div>
 						</td>
-						<td class="align-middle"> 
-							<div class="price-wrap">
-								<dl class="param param-inline small">
-									<?php if($row->free_ship == 'Free Pickup'){ ?><span><img src="uploads/free.svg" alt="#" class="img-fluid"> <?php echo $row->free_ship;?></span><?php }else{ ?> <?php } ?></br>
-									<?php if($row->drop_off == 'Drop-off'){ ?><span><img src="uploads/drop_off.svg" alt="#" class="img-fluid"> <?php echo $row->drop_off;?></span><?php }else{ ?> <?php } ?>
-								</dl>	
-							</div>
-						</td>
+					
 						<td class="align-middle"> 
 							<div class="price-wrap"> 
 								<b><?php echo $core->currency;?> <span><?php echo $row->rate;?></span></b> 
-								 <a href="booking.php?do=booking&amp;action=ship&amp;id=<?php echo $row->id;?>&amp;length=<?php if(isset($_POST['length'])){echo $_POST['length'];}else{ echo 0; }?>&amp;width=<?php if(isset($_POST['width'])){echo $_POST['width'];}else{ echo 0;}?>&amp;height=<?php if(isset($_POST['height'])){echo $_POST['height'];}else{echo 0;}?>&amp;weight=<?php if(isset($_POST['weight'])){echo $_POST['weight'];}else{echo $_POST['r_weight'];}?>&amp;type=<?php if(isset($_POST['type'])){echo $_POST['type'];}else{ echo " "; }?>&amp;scountry=<?php if(isset($_POST['scountry'])){echo $_POST['scountry'];}else{ echo " "; }?>"><button class="btn btn-sm btn-rounded btn-outline-green px-md-3 m-3">Ship</button></a> 
+								 <a href="booking.php?do=booking&amp;action=ship&amp;id=<?php echo $row->id;?>&amp;length=<?php if(isset($_POST['length'])){echo $_POST['length'];}else{ echo 0; }?>&amp;width=<?php if(isset($_POST['width'])){echo $_POST['width'];}else{ echo 0;}?>&amp;height=<?php if(isset($_POST['height'])){echo $_POST['height'];}else{echo 0;}?>&amp;weight=<?php if(isset($_POST['weight'])){echo $_POST['weight'];}else{echo $_POST['r_weight'];}?>&amp;type=<?php if(isset($_POST['type'])){echo $_POST['type'];}else{ echo " "; }?>&amp;scountry=<?php if(isset($_POST['scountry'])){echo $_POST['scountry'];}else{ echo " "; }?>">
+								 
 							</div>
 						</td>								
 					</tr>

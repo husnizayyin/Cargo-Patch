@@ -1,23 +1,5 @@
 <?php
-// *************************************************************************
-// *                                                                       *
-// * DEPRIXA -  Integrated Web system                                      *
-// * Copyright (c) JAOMWEB. All Rights Reserved                            *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * Email: osorio2380@yahoo.es                                            *
-// * Website: http://www.jaom.info                                         *
-// *                                                                       *
-// *************************************************************************
-// *                                                                       *
-// * This software is furnished under a license and may be used and copied *
-// * only  in  accordance  with  the  terms  of such  license and with the *
-// * inclusion of the above copyright notice.                              *
-// * If you Purchased from Codecanyon, Please read the full License from   *
-// * here- http://codecanyon.net/licenses/standard                         *
-// *                                                                       *
-// *************************************************************************
+
 
   define("_VALID_PHP", true);
   require_once("../init.php");
@@ -128,13 +110,13 @@
 										<div class="col-sm-12 col-md-6">
 											<label for="inputEmail3" class="control-label col-form-label"><?php echo $lang['status-ship4'] ?> </label>
 											<div class="input-group mb-3">
-												<input type="text" class="form-control"  name="t_dest" placeholder="Select Country" list="browsers" autocomplete="off" required="required">
+												<input type="text" class="form-control"  name="t_dest" placeholder="Pilih Kota" list="browsers" autocomplete="off" required="required">
 												<datalist id="browsers">	
-													<option value="DKI Jakarta">DKI Jakarta</option>
-													<option value="Jogja">Jogja </option>
-													<option value="Jawa Barat">Jawa Barat</option>
-													<option value="Jawa Tengah">Jawa Tengah</option>
-													<option value="Jawa Timur">Jawa Timur</option> 
+													<option value="Bandung">Bandung</option>
+													<option value="Cimahi">Cimahi </option>
+													<option value="Ciamis">Ciamis</option>
+													<option value="Banjar">Banjar</option>
+													<option value="Tasikmalaya">Tasikmalaya</option> 
 										
 												</datalist>
 											</div>

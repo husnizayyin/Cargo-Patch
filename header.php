@@ -45,11 +45,7 @@
 							<a class="dropdown-item" href="track_shipment.php">Lacak Paket</a>
 						</div>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link" href="consolidated_list.php">
-							My consolidated
-						</a>
-					</li>
+					
 					
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -76,10 +72,7 @@
 							Deliver List
 						</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="consolidated_deliveries.php" >
-							Consolidated deliveries List
-						</a>
+				
 					</li>
 					<?php else:?>
 					<li class="nav-item active">
@@ -100,11 +93,7 @@
 							Tentang Kami
 						</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link" href="contact.php">
-							Kontak
-						</a>
-					</li>
+					
 					
 					<li class="nav-item dropdown"></li>
 					<li class="nav-item dropdown"></li>

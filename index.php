@@ -128,7 +128,7 @@
 					<ul class="list-unstyled u-fw-600">
 					<li class="d-flex align-items-center mb-2">
 						<span class="lnr lnr-checkmark-circle mr-2 color-primary u-fs-20">
-						<a href="sepatu.php">SEPATU </a> 		
+						<a href="sepatu.php">Layanan Sepatu</a> 		
 
 						</span>
 
@@ -143,10 +143,18 @@
 			<span class="icon icon-Files text-primary u-fs-50 mr-4"></span>
 				<div class="media-body">
 					<h4>
-						Generate labels
+						Tarif
 					</h4>
 					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
+					Dengan ongkos kirim yang lebih ekonomis kami tetap memberikan pelayanan yang terbaik cek ongkos kirim mu dibawah.
+					</p>
+					<p>
+					<span class="color-primary u-fs-20">
+						<a href="shipping-rates.php">cek ongkir mu </a> 		
+
+						</span>
+					 
+					
 					</p>
 				</div>
 			</div>
@@ -197,7 +205,7 @@
 					<ul class="list-unstyled u-fw-600">
 					<li class="d-flex align-items-center mb-2">
 						<span class="lnr lnr-checkmark-circle mr-2 color-primary u-fs-20"></span>
-						Dan beberapa kota lainnya di Jawa Barat
+						Dll
 					</li>
 					</p>
 				</div>
@@ -290,32 +298,6 @@
 		</div> <!-- END row-->
 	</div> <!-- END container-->
 </section>
-
-
-<section class="u-py-100 bg-white-v2">
-	<div class="container">
-		<div class="row">
-			<div class="col-12 d-md-flex justify-content-between text-center">
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-0.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-1.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-2.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-3.png" alt="">
-				</div>
-				<div class="p-3">
-					<img src="assets-theme/img/partner/Layer-4.png" alt="">
-				</div>
-			</div>
-		</div> <!-- END row-->
-	</div> <!-- END container-->
-</section>
-     
 
 <?php require_once("footer.php");?> 
 

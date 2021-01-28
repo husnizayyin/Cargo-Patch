@@ -212,33 +212,7 @@
 			</div>
 		</div> <!-- END col-lg-4 col-md-6-->
 		
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-Resume text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Business Consulting
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
 		
-		<div class="col-lg-4 col-md-6 u-mb-70">
-		<div class="media">
-			<span class="icon icon-Starship2 text-primary u-fs-50 mr-4"></span>
-				<div class="media-body">
-					<h4>
-						Progress Across Projects
-					</h4>
-					<p>
-						Nam liber tempor cum soluta nois eleifend option congue is nihil tem imper per tem por legere.
-					</p>
-				</div>
-			</div>
-		</div> <!-- END col-lg-4 col-md-6-->
 		
    </div> <!--END row-->
   </div> <!-- END container-->
@@ -261,43 +235,6 @@
   </div> <!-- END container-->
 </section> <!-- END section--> 
             
-<section class="u-py-100 bg-white-v2">
-	<div class="container">
-		<div class="row text-center">
-		
-			<div class="col-md-4 mt-5 mt-md-0">
-				<span class="icon icon-WorldWide u-fs-60 text-primary"></span>
-				<h3 class="my-4">
-					QUALITY
-				</h3>
-				<p>
-					Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend legere me doming.
-				</p>
-			</div>  <!-- END col-md-4 -->
-		
-			<div class="col-md-4 mt-5 mt-md-0">
-				<span class="icon icon-Starship u-fs-60 text-primary"></span>
-				<h3 class="my-4">
-					FAST
-				</h3>
-				<p>
-					Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend legere me doming.
-				</p>
-			</div>  <!-- END col-md-4 -->
-		
-			<div class="col-md-4 mt-5 mt-md-0">
-				<span class="icon icon-Shield u-fs-60 text-primary"></span>
-				<h3 class="my-4">
-					SAFE
-				</h3>
-				<p>
-					Nam liber tempor cum soluta nobi eleifend option congue nihil imper per tem por legere eleifend legere me doming.
-				</p>
-			</div>  <!-- END col-md-4 -->
-			
-		</div> <!-- END row-->
-	</div> <!-- END container-->
-</section>
 
 <?php require_once("footer.php");?> 
 
